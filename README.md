@@ -8,7 +8,7 @@
 [gemnasium]: https://gemnasium.com/codeforamerica/adopt-a-hydrant
 [coveralls]: https://coveralls.io/r/codeforamerica/adopt-a-hydrant
 
-Claim responsibility for shoveling out a fire hydrant after it snows.
+Claim responsibility for keeping storm drain clear.
 
 ## Screenshot
 ![Adopt-a-Hydrant](https://github.com/codeforamerica/adopt-a-hydrant/raw/master/screenshot.png "Adopt-a-Hydrant")
