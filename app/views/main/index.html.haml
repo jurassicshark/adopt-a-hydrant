@@ -2,7 +2,7 @@
   .table-row
     .table-cell.sidebar
       %h1
-        = image_tag "logos/ssfd2.png", :alt => t("titles.main", :thing => t("defaults.thing").titleize), :title => t("titles.main", :thing => t("defaults.thing").titleize)
+        = image_tag "logos/adopt-a-hydrant.png", :alt => t("titles.main", :thing => t("defaults.thing").titleize), :title => t("titles.main", :thing => t("defaults.thing").titleize)
       %p.alert-message.block-message#tagline
         = t("defaults.tagline")
       #content
@@ -14,7 +14,7 @@
       #logos
         #col1
           %a{:href => "http://codeforamerica.org/"}
-           = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
+            = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
           %br
           %a{:href => "http://bostonbuilt.org/"}
             = image_tag "logos/bostonbuilt.png", :alt => t("sponsors.built"), :title => t("sponsors.built")
@@ -32,4 +32,5 @@
             = t("links.feedback")
     .table-cell.map-container
       #map
-        &nbsp;  
+        &nbsp;
+		
