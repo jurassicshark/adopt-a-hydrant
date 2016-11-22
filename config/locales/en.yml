@@ -34,7 +34,7 @@ en:
     tagline: "Claim responsibility for keeping strom drains clear."
     tos: "By signing up, you agree to the %{tos}."
     voice_number: "650-555-1212"
-    zip: "02201-2013"
+    zip: "94080"
   errors:
     password: "You need to sign in or sign up before continuing."
     not_found: "Could not find %{thing}."

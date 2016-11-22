@@ -13,7 +13,7 @@ $(function() {
     scaleControl: false,
     scrollwheel: false,
     streetViewControl: true,
-    zoom: 16,
+    zoom: 18,
     zoomControl: true
   };
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -226,7 +226,7 @@ $(function() {
       } else {
         $('#user_name').parent().removeClass('error');
       }
-      if($('#user_password_confirmation').val().length < 6 || $('#user_password_confirmation').val().length > 20) {
+      if($('#user_password_confirmation').val().length < 3 || $('#user_password_confirmation').val().length > 20) {
         errors.push($('#user_password_confirmation'));
         $('#user_password_confirmation').parent().addClass('error');
       } else {
@@ -493,13 +493,13 @@ $(function() {
     } else {
       $('#user_zip').parent().removeClass('error');
     }
-    if($('#user_password').val() && ($('#user_password').val().length < 6 || $('#user_password').val().length > 20)) {
+    if($('#user_password').val() && ($('#user_password').val().length < 3 || $('#user_password').val().length > 20)) {
       errors.push($('#user_password'));
       $('#user_password').parent().addClass('error');
     } else {
       $('#user_password').parent().removeClass('error');
     }
-    if($('#user_current_password').val().length < 6 || $('#user_current_password').val().length > 20) {
+    if($('#user_current_password').val().length < 3 || $('#user_current_password').val().length > 20) {
       errors.push($('#user_current_password'));
       $('#user_current_password').parent().addClass('error');
     } else {
