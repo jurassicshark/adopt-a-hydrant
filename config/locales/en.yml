@@ -81,7 +81,7 @@ en:
     ofline: "of %{organization}"
     sign_in: "Sign in to adopt this %{thing}"
     thank_you: "Thank you for adopting this %{thing}!"
-    tos: "Waiver"
+    tos: "Volunteer Agreement and Waiver"
   sponsors:
     built: "Built in South San Francisco"
     cfa: "Code for America"
