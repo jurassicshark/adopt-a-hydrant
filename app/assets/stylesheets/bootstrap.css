@@ -3273,7 +3273,7 @@ input[type="submit"].btn.btn-mini {
 }
 .modal {
   position: fixed;
-  top: 32%;
+  top: 38%;
   left: 50%;
   z-index: 1050;
   overflow: auto;
